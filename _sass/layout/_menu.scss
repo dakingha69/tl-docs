@@ -7,15 +7,13 @@
 #menu {
 	ul {
 		@include vendor('user-select', 'none');
-		color: _palette(fg);
-		font-family: _font(weight-heading-alt);
+		color: _palette(black);
 		letter-spacing: _font(kerning-heading);
 		list-style: none;
 		margin-bottom: 0;
 		padding: 0;
 
-		a,
-		span {
+		a, span {
 			border-bottom: 0;
 			color: inherit;
 			cursor: pointer;
@@ -23,9 +21,10 @@
 			font-size: 0.9em;
 
 			&:hover {
-				color: _palette(accent);
+				color: _palette(orange);
 			}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	#menu {
 		ul {
@@ -46,6 +45,8 @@
 				&:hover {
 					color: _palette(orange);
 =======
+=======
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 			&.opener {
 				@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
 				@include icon;
@@ -53,6 +54,7 @@
 				position: relative;
 
 				&:before {
+<<<<<<< HEAD
 					@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'transform #{_duration(transition)} ease-in-out'));
 					color: _palette(fg-light);
 					content: '\f078';
@@ -65,6 +67,9 @@
 					&:before {
 <<<<<<< HEAD
 						@include vendor('transition', (
+=======
+					@include vendor('transition', (
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 							'color #{_duration(transition)} ease-in-out',
 							'transform #{_duration(transition)} ease-in-out'
 						));
@@ -72,6 +77,7 @@
 						content: '\f078';
 						position: absolute;
 						right: 0;
+<<<<<<< HEAD
 =======
 						color: _palette(accent);
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
@@ -88,6 +94,19 @@
 					& + ul {
 						display: block;
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+				}
+
+				&:hover {
+					&:before {
+						color: _palette(orange);
+					}
+				}
+
+				&.active {
+					& + ul {
+						display: block;
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 					}
 
 					&:before {
@@ -98,6 +117,7 @@
 		}
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		> ul {
 			> li {
@@ -136,11 +156,27 @@
 				span {
 					font-size: 0.8em;
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+	> ul {
+		> li {
+			border-top: solid 1px _palette(grey);
+			margin: 0.5em 0 0 0;
+			padding: 0.5em 0 0 0;
+
+			> ul {
+				color: _palette(purple);
+				display: none;
+				margin: 0.5em 0 1.5em 0;
+				padding-left: 1em;
+
+				a, span {
+					font-size: 0.8em;
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 				}
 
 				> li {
-					margin: 0.125em 0 0;
-					padding: 0.125em 0 0;
+					margin: 0.125em 0 0 0;
+					padding: 0.125em 0 0 0;
 				}
 			}
 

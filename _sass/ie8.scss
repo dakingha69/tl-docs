@@ -9,6 +9,7 @@
 */
 /* Button */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	input[type="submit"],
 	input[type="reset"],
@@ -27,6 +28,16 @@ button,
 	border: solid 2px _palette(accent);
 }
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+	border: solid 2px _palette(orange);
+}
+
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 /* Posts */
 .posts {
 	article {

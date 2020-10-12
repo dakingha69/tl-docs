@@ -42,7 +42,7 @@
 			width: 6em;
 
 			&:before {
-				color: _palette(accent);
+				color: _palette(orange);
 				font-size: 3.85rem;
 				position: relative;
 				top: 0.05em;
@@ -60,7 +60,7 @@
 		}
 	}
 	@include breakpoint(medium) {
-		margin: 0 0 _size(element-margin);
+		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
 
 		article {
@@ -90,6 +90,7 @@
 				width: 8em;
 
 				&:before {
+<<<<<<< HEAD
 <<<<<<< HEAD
 					color: _palette(orange);
 					font-size: 3.85rem;
@@ -126,6 +127,9 @@
 =======
 					font-size: 2.25rem;
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+					font-size: 2.85rem;
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 				}
 
 				&:after {
@@ -136,6 +140,7 @@
 			}
 		}
 	}
+	
 	@include breakpoint(xsmall) {
 		article {
 			@include vendor('flex-direction', 'column');
@@ -143,12 +148,6 @@
 
 			.icon {
 				display: none;
-			}
-		}
-	}
-	@include breakpoint(xsmall) {
-		article {
-			.icon {
 				&:before {
 					font-size: 1.25rem;
 				}

@@ -10,6 +10,10 @@ input,
 select,
 textarea {
 	color: _palette(black);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 	font-family: _font(family);
 	font-size: 13pt;
 	font-weight: _font(weight);
@@ -26,7 +30,11 @@ textarea {
 }
 
 a {
+<<<<<<< HEAD
 	@include vendor('transition', ('all #{_duration(transition)} ease'));
+=======
+	@include vendor('transition', ('all #{_duration(transition)} ease',));
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 	color: _palette(orange);
 	text-decoration: none;
 
@@ -50,7 +58,12 @@ a {
 	}
 }
 
+<<<<<<< HEAD
 strong, b {
+=======
+b,
+strong {
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 	color: _palette(orange);
 	font-weight: _font(weight-bold);
 }
@@ -64,8 +77,18 @@ p {
 	margin: 0 0 (_size(element-margin)*0.5);
 }
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
 	@include vendor('transition', ('all #{_duration(transition)} ease'));
+=======
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@include vendor('transition', ('all #{_duration(transition)} ease',));
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 	color: _palette(orange);
 	font-family: _font(family-heading);
 	font-weight: _font(weight-medium);
@@ -229,7 +252,6 @@ a.toggle {
 }
 
 #prev_next {
-	
 	a {
 		color: _palette(orange);
 		&:hover {

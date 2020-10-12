@@ -5,6 +5,7 @@
 ///
 /* Header */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	#header {
 		@include vendor('display', 'flex');
@@ -26,10 +27,13 @@
 				color: _palette(orange);
 			}
 =======
+=======
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 #header {
 	@include vendor('display', 'flex');
-	border-bottom: solid 5px _palette(accent);
-	padding: 6em 0 1em;
+	@include vendor('transition', ('all #{_duration(transition)} ease'));
+	border-bottom: solid 5px _palette(orange);
+	padding: 6em 0 1em 0;
 	position: relative;
 
 	> * {
@@ -39,23 +43,31 @@
 
 	.logo {
 		border-bottom: 0;
-		color: inherit;
 		font-size: 1.125em;
+		color: _palette(black);
+		&:hover {
+			color: _palette(orange);
+		}
 	}
 
 	.icons {
 		text-align: right;
 	}
+
 	@include breakpoint(xlarge) {
 		padding-top: 5em;
 	}
+	
 	@include breakpoint(small) {
 		padding-top: 6.5em;
 
 		.logo {
 			font-size: 1.25em;
 			margin: 0;
+<<<<<<< HEAD
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		}
 
 		.icons {

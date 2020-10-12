@@ -6,10 +6,11 @@
 /* Mini Posts */
 .mini-posts {
 	article {
-		border-top: solid 1px _palette(border);
+		border-top: solid 1px _palette(grey);
 		margin-top: _size(element-margin);
 		padding-top: _size(element-margin);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	.mini-posts {
 		article {
@@ -21,6 +22,11 @@
 			display: block;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+		.image {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 
 			img {
 				display: block;

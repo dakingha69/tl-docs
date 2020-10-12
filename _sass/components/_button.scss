@@ -11,11 +11,11 @@ button,
 .button {
 	@include vendor('appearance', 'none');
 	@include vendor('transition', 'border-bottom #{_duration(transition)} ease');
-	color: _palette(accent) !important;
+	color: _palette(orange);
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
-	font-weight: _font(weight-heading);
+	font-weight: _font(weight-bold);
 	height: 2.5em;
 	letter-spacing: _font(kerning-heading);
 	line-height: 3.5em;
@@ -23,6 +23,7 @@ button,
 	text-decoration: none;
 	white-space: nowrap;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	input[type="submit"],
 	input[type="reset"],
@@ -112,10 +113,35 @@ button,
 		&:hover {
 			background-color: lighten(_palette(accent), 3);
 >>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+=======
+	&.icon {
+		&:before {
+			margin-right: 0.5em;
+		}
+	}
+
+	&.small {
+		font-size: 0.6em;
+	}
+
+	&.big {
+		font-size: 1em;
+		height: 3.65em;
+		line-height: 3.65em;
+	}
+
+	&.special {
+		background-color: _palette(orange);
+		box-shadow: none;
+		color: _palette(white) !important;
+
+		&:hover {
+			background-color: lighten(_palette(orange), 3);
+>>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		}
 
 		&:active {
-			background-color: darken(_palette(accent), 3);
+			background-color: darken(_palette(orange), 3);
 		}
 	}
 
