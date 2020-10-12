@@ -13,36 +13,14 @@ table {
 	margin: 0 0 _size(element-margin);
 	width: 100%;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		tbody {
-			tr {
-				border: solid 1px _palette(grey);
-				border-left: 0;
-				border-right: 0;
-
-				&:nth-child(2n + 1) {
-					background-color: _palette(grey-alt);
-				}
-=======
-	tbody {
-		tr {
-			border: solid 1px _palette(border);
-=======
 	tbody {
 		tr {
 			border: solid 1px _palette(grey);
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 			border-left: 0;
 			border-right: 0;
 
 			&:nth-child(2n + 1) {
-<<<<<<< HEAD
-				background-color: _palette(border-bg);
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
 				background-color: _palette(grey-alt);
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 			}
 		}
 	}
@@ -51,84 +29,31 @@ table {
 		padding: 0.75em;
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		th {
-			color: _palette(orange);
-			font-size: 0.9em;
-			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
-		}
-
-		thead {
-			border-bottom: solid 2px _palette(grey);
-		}
-
-		tfoot {
-			border-top: solid 2px _palette(grey);
-		}
-=======
-	th {
-		color: _palette(fg-bold);
-		font-size: 0.9em;
-		font-weight: _font(weight-bold);
-		padding: 0 0.75em 0.75em;
-=======
 	th {
 		color: _palette(orange);
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
 		padding: 0 0.75em 0.75em 0.75em;
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		text-align: left;
 	}
 
 	thead {
-<<<<<<< HEAD
-		border-bottom: solid 2px _palette(border);
-	}
-
-	tfoot {
-		border-top: solid 2px _palette(border);
-	}
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
 		border-bottom: solid 2px _palette(grey);
 	}
 
 	tfoot {
 		border-top: solid 2px _palette(grey);
 	}
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 
 	&.alt {
 		border-collapse: separate;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-			tbody {
-				tr {
-					td {
-						border: solid 1px _palette(grey);
-						border-left-width: 0;
-						border-top-width: 0;
-=======
-		tbody {
-			tr {
-				td {
-					border: solid 1px _palette(border);
-					border-left-width: 0;
-					border-top-width: 0;
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
 		tbody {
 			tr {
 				td {
 					border: solid 1px _palette(grey);
 					border-left-width: 0;
 					border-top-width: 0;
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 
 					&:first-child {
 						border-left-width: 1px;

@@ -23,41 +23,6 @@ button,
 	text-decoration: none;
 	white-space: nowrap;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		@include vendor('appearance', 'none');
-		@include vendor('transition', 'border-bottom #{_duration(transition)} ease');
-		color: _palette(orange);
-		cursor: pointer;
-		display: inline-block;
-		font-size: 1em;
-		font-weight: _font(weight-bold);
-		height: 2.5em;
-		letter-spacing: _font(kerning-heading);
-		line-height: 3.5em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-
-		&.icon {
-			&:before {
-				margin-right: 0.5em;
-			}
-		}
-=======
-	&:hover {
-		border-bottom: 2px solid _palette(accent);
-	}
-
-	&:active {
-		border-bottom: 2px solid _palette(accent);
-	}
-
 	&.icon {
 		&:before {
 			margin-right: 0.5em;
@@ -68,56 +33,6 @@ button,
 		display: block;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		width: 100%;
-	}
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-
-	&.small {
-		font-size: 0.6em;
-	}
-
-<<<<<<< HEAD
-		&.small {
-			font-size: 0.6em;
-		}
-
-		&.big {
-			font-size: 1em;
-			height: 3.65em;
-			line-height: 3.65em;
-		}
-
-		&.special {
-			background-color: _palette(orange);
-			box-shadow: none;
-			color: _palette(white) !important;
-
-			&:hover {
-				background-color: lighten(_palette(orange), 3);
-			}
-
-			&:active {
-				background-color: darken(_palette(orange), 3);
-			}
-=======
-	&.big {
-		font-size: 1em;
-		height: 3.65em;
-		line-height: 3.65em;
-	}
-
-	&.special {
-		background-color: _palette(accent);
-		box-shadow: none;
-		color: _palette(bg) !important;
-
-		&:hover {
-			background-color: lighten(_palette(accent), 3);
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
-	&.icon {
-		&:before {
-			margin-right: 0.5em;
-		}
 	}
 
 	&.small {
@@ -137,7 +52,6 @@ button,
 
 		&:hover {
 			background-color: lighten(_palette(orange), 3);
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		}
 
 		&:active {

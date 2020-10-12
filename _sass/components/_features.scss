@@ -59,6 +59,7 @@
 			}
 		}
 	}
+
 	@include breakpoint(medium) {
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
@@ -90,46 +91,10 @@
 				width: 8em;
 
 				&:before {
-<<<<<<< HEAD
-<<<<<<< HEAD
 					color: _palette(orange);
-					font-size: 3.85rem;
+					font-size: 2.25rem;
 					position: relative;
 					top: 0.05em;
-				}
-			}
-
-			.content {
-				@include vendor('flex-grow', '1');
-				@include vendor('flex-shrink', '1');
-				width: 100%;
-
-				> :last-child {
-					margin-bottom: 0;
-				}
-			}
-		}
-
-		@include breakpoint(medium) {
-			margin: 0 0 _size(element-margin) 0;
-			width: 100%;
-
-			article {
-				margin: 0 0 $gutter 0;
-				width: 100%;
-
-				&:nth-child(2n - 1) {
-					margin-right: 0;
-				}
-
-				&:nth-child(2n) {
-					margin-left: 0;
-=======
-					font-size: 2.25rem;
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
-					font-size: 2.85rem;
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 				}
 
 				&:after {
@@ -140,7 +105,7 @@
 			}
 		}
 	}
-	
+
 	@include breakpoint(xsmall) {
 		article {
 			@include vendor('flex-direction', 'column');

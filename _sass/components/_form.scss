@@ -40,71 +40,19 @@ textarea {
 		box-shadow: none;
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	label {
-		color: _palette(orange);
-		display: block;
-		font-size: 0.9em;
-		font-weight: _font(weight-bold);
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
-=======
-	&:focus {
-		border-color: _palette(accent);
-		box-shadow: 0 0 0 1px _palette(accent);
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-	}
-}
-
-<<<<<<< HEAD
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
-	select,
-	textarea {
-		@include vendor('appearance', 'none');
-		background: _palette(white);
-		border-radius: _size(border-radius);
-		border: none;
-		border: solid 1px _palette(grey);
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0 1em;
-		text-decoration: none;
-		width: 100%;
-
-		&:invalid {
-			box-shadow: none;
-		}
-
-		&:focus {
-			border-color: _palette(orange);
-			box-shadow: 0 0 0 1px _palette(orange);
-		}
-=======
-=======
 	&:focus {
 		border-color: _palette(orange);
 		box-shadow: 0 0 0 1px _palette(orange);
 	}
 }
 
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 .select-wrapper {
 	@include icon;
 	display: block;
 	position: relative;
 
 	&:before {
-<<<<<<< HEAD
-		color: _palette(border);
-=======
 		color: _palette(grey);
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		content: '\f078';
 		display: block;
 		height: _size(element-height);
@@ -115,10 +63,6 @@ textarea {
 		text-align: center;
 		top: 0;
 		width: _size(element-height);
-<<<<<<< HEAD
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 	}
 
 	select::-ms-expand {
@@ -162,19 +106,7 @@ input[type="radio"] {
 		position: relative;
 
 		&:before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-			color: _palette(grey);
-			content: '\f078';
-			display: block;
-			height: _size(element-height);
-			line-height: _size(element-height);
-			pointer-events: none;
-=======
-			background: _palette(bg);
-=======
 			background: _palette(white);
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 			border-radius: _size(border-radius);
 			border: solid 1px _palette(grey);
 			content: '';
@@ -182,10 +114,6 @@ input[type="radio"] {
 			height: (_size(element-height) * 0.6);
 			left: 0;
 			line-height: (_size(element-height) * 0.575);
-<<<<<<< HEAD
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 			position: absolute;
 			text-align: center;
 			top: 0;
@@ -193,89 +121,12 @@ input[type="radio"] {
 		}
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
-	select {
-		height: _size(element-height);
-	}
-
-	textarea {
-		padding: 0.75em 1em;
-	}
-
-	input[type="checkbox"],
-	input[type="radio"], {
-		@include vendor('appearance', 'none');
-		display: block;
-		float: left;
-		margin-right: -2em;
-		opacity: 0;
-		width: 1em;
-		z-index: -1;
-
-		& + label {
-			@include icon;
-			color: _palette(black);
-			cursor: pointer;
-			display: inline-block;
-			font-size: 1em;
-			font-weight: _font(weight);
-			padding-left: (_size(element-height) * 0.6) + 0.75em;
-			padding-right: 0.75em;
-			position: relative;
-
-			&:before {
-				background: _palette(white);
-				border-radius: _size(border-radius);
-				border: solid 1px _palette(grey);
-				content: '';
-				display: inline-block;
-				height: (_size(element-height) * 0.6);
-				left: 0;
-				line-height: (_size(element-height) * 0.575);
-				position: absolute;
-				text-align: center;
-				top: 0;
-				width: (_size(element-height) * 0.6);
-			}
-		}
-
-		&:checked + label {
-			&:before {
-				background: _palette(orange);
-				border-color: _palette(orange);
-				color: _palette(white);
-				content: '\f00c';
-			}
-		}
-
-		&:focus + label {
-			&:before {
-				border-color: _palette(orange);
-				box-shadow: 0 0 0 1px _palette(orange);
-			}
-=======
-	&:checked + label {
-		&:before {
-			background: _palette(fg-bold);
-			border-color: _palette(fg-bold);
-			color: _palette(bg);
-			content: '\f00c';
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
 	&:checked + label {
 		&:before {
 			background: _palette(orange);
 			border-color: _palette(orange);
 			color: _palette(white);
 			content: '\f00c';
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 		}
 	}
 
@@ -295,35 +146,6 @@ input[type="checkbox"] {
 	}
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	::-webkit-input-placeholder {
-		color: _palette(purple) !important;
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		color: _palette(purple) !important;
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		color: _palette(purple) !important;
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		color: _palette(purple) !important;
-		opacity: 1.0;
-	}
-
-	.formerize-placeholder {
-		color: _palette(purple) !important;
-		opacity: 1.0;
-	}
-=======
-=======
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
 input[type="radio"] {
 	& + label {
 		&:before {
@@ -355,9 +177,4 @@ input[type="radio"] {
 .formerize-placeholder {
 	color: _palette(purple) !important;
 	opacity: 1.0;
-<<<<<<< HEAD
 }
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
-}
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
