@@ -11,9 +11,9 @@ _Download PDF: <a href="../../assets/pdf/200608-TL-guidelines-V2.pdf" target="_b
 
 ### Table of Contents
 
-#### 1. [Brand Tonality](#1-brand-tonality)
+#### 1. [Brand Tonality](#1-brand-tonality-1)
 
-#### 2. [Logo](#2-logo)
+#### 2. [Logos](#2-logo-1)
 
   - 2.1 [Variations and Minimum Size](#21-variations-and-minimum-size)
   - 2.2 [Exclusion zone](#22-exclusion-zone)
@@ -51,18 +51,20 @@ _Download PDF: <a href="../../assets/pdf/200608-TL-guidelines-V2.pdf" target="_b
 
 ___
 
-<a href="../../assets/images/brand/guidelines/01 Cover.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/01 Cover.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/01.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/01.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/02.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/02.png" class="brand_guidelines_img" /></a>
 
 ## 1. Brand Tonality
 
-<a href="../../assets/images/brand/guidelines/03 - 1 Brand Tonality.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/03 - 1 Brand Tonality.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/03.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/03.png" class="brand_guidelines_img" /></a>
 <a href="../../assets/images/brand/guidelines/04.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/04.png" class="brand_guidelines_img" /></a>
 <a href="../../assets/images/brand/guidelines/05.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/05.png" class="brand_guidelines_img" /></a>
 
 
-## 2. Logo
+## 2. Logos
 
-<a href="../../assets/images/brand/guidelines/06 - 2 Logo.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/06 - 2 Logo.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/06.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/06.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/07.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/07.png" class="brand_guidelines_img" /></a>
 
 #### 2.1 Variations and Minimum Size
 
@@ -75,7 +77,7 @@ ___
 
 ## 3. Color System
 
-<a href="../../assets/images/brand/guidelines/10 - 3 Color System.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/10 - 3 Color System.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/10.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/10.png" class="brand_guidelines_img" /></a>
 
 #### 3.1 Primary Colors
 
@@ -112,7 +114,7 @@ ___
 
 ## 4. Typography
 
-<a href="../../assets/images/brand/guidelines/21 - 4 Typography.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/21 - 4 Typography.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/21.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/21.png" class="brand_guidelines_img" /></a>
 
 #### 4.1 Typeface
 
@@ -144,7 +146,7 @@ ___
 
 ## 6. Trustlines Foundation
 
-<a href="../../assets/images/brand/guidelines/30 - Foundation.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/30 - Foundation.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/30.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/30.png" class="brand_guidelines_img" /></a>
 
 #### 6.1 Logo Adaptation
 
@@ -168,7 +170,7 @@ ___
 
 #### 6.6 Blog Post Images
 
-<a href="../../assets/images/brand/guidelines/35.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/35.png" class="brand_guidelines_img" /></a>
+<a href="../../assets/images/brand/guidelines/36.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/36.png" class="brand_guidelines_img" /></a>
 
 #### 6.7 Social Platforms Presence
 
@@ -176,3 +178,16 @@ ___
 
 
 <a href="../../assets/images/brand/guidelines/38.png" class="brand_guidelines_link"><img src="../../assets/images/brand/guidelines/38.png" class="brand_guidelines_img" /></a>
+
+___
+
+<div id="prev_next">
+<div class="prev"><a href="../use_cases/time_credits/time_credits_on_trustlines" class="prev_next_text">Previous</a></div>
+<div class="prev"><a href="../use_cases/time_credits/time_credits_on_trustlines" class="icon fas fa-arrow-left prev_next"></a><br></div>
+<div class="prev"><a href="../use_cases/time_credits/time_credits_on_trustlines" class="prev_next_text">Time Credits on Trustlines</a></div>
+</div>
+<div id="prev_next">
+<div><a href="brand_resources" class="prev_next_text">Next</a></div>
+<div><a href="brand_resources" class="icon fas fa-arrow-right prev_next"></a><br></div>
+<div><a href="brand_resources" class="prev_next_text">Brand Resources</a></div>
+</div>

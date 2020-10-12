@@ -41,7 +41,7 @@ Enter your Ethereum address in the box and click on `Check eligibility` to confi
 
 After entering an eligible address, you can claim your tokens.
 
-_Note: The page will show "X TLN claimable out of original Y TLN" because the amount is decaying over time. The sooner you claim, the more you get.__
+_Note: The page will show "X TLN claimable out of original Y TLN" because the amount is decaying over time. The sooner you claim, the more you get._
 
 <center><a class="vdw_a" href="../../assets/images/tln_claim_guide/claim_mm03.png"><img class="vdw_img" src="../../assets/images/tln_claim_guide/claim_mm03.png"></a></center>
 
@@ -54,3 +54,14 @@ A MetaMask notification will pop up where you need to confirm the transaction fo
 After the transaction has been confirmed, you will soon receive the TLN in your wallet.
 
 ___
+
+<div id="prev_next">
+<div class="prev"><a href="../guides/tl_app_user_guide" class="prev_next_text">Previous</a></div>
+<div class="prev"><a href="../guides/tl_app_user_guide" class="icon fas fa-arrow-left prev_next"></a><br></div>
+<div class="prev"><a href="../guides/tl_app_user_guide" class="prev_next_text">User guide for Trustlines App</a></div>
+</div>
+<div id="prev_next">
+<div><a href="converting_tln_to_tlc" class="prev_next_text">Next</a></div>
+<div><a href="converting_tln_to_tlc" class="icon fas fa-arrow-right prev_next"></a><br></div>
+<div><a href="converting_tln_to_tlc" class="prev_next_text">Converting TLN to TLC</a></div>
+</div>

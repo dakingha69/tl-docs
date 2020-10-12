@@ -3,9 +3,27 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
 /* Button */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+	@include vendor('appearance', 'none');
+	@include vendor('transition', 'border-bottom #{_duration(transition)} ease');
+	color: _palette(accent) !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: _font(weight-heading);
+	height: 2.5em;
+	letter-spacing: _font(kerning-heading);
+	line-height: 3.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
 
+<<<<<<< HEAD
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -30,13 +48,33 @@
 				margin-right: 0.5em;
 			}
 		}
+=======
+	&:hover {
+		border-bottom: 2px solid _palette(accent);
+	}
 
-		&.fit {
-			display: block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 100%;
+	&:active {
+		border-bottom: 2px solid _palette(accent);
+	}
+
+	&.icon {
+		&:before {
+			margin-right: 0.5em;
 		}
+	}
 
+	&.fit {
+		display: block;
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		width: 100%;
+	}
+>>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
+
+	&.small {
+		font-size: 0.6em;
+	}
+
+<<<<<<< HEAD
 		&.small {
 			font-size: 0.6em;
 		}
@@ -59,11 +97,31 @@
 			&:active {
 				background-color: darken(_palette(orange), 3);
 			}
+=======
+	&.big {
+		font-size: 1em;
+		height: 3.65em;
+		line-height: 3.65em;
+	}
+
+	&.special {
+		background-color: _palette(accent);
+		box-shadow: none;
+		color: _palette(bg) !important;
+
+		&:hover {
+			background-color: lighten(_palette(accent), 3);
+>>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
 		}
 
-		&.disabled,
-		&:disabled {
-			@include vendor('pointer-events', 'none');
-			opacity: 0.25;
+		&:active {
+			background-color: darken(_palette(accent), 3);
 		}
 	}
+
+	&.disabled,
+	&:disabled {
+		@include vendor('pointer-events', 'none');
+		opacity: 0.25;
+	}
+}
