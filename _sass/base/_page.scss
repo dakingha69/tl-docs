@@ -32,28 +32,5 @@ body {
 			@include vendor('animation', 'none !important');
 			@include vendor('transition', 'none !important');
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-	body {
-		background: _palette(white);
-
-		// Prevents animation/transition "flicker".
-		// Automatically added/removed by js/main.js.
-			&.is-loading,
-			&.is-resizing {
-				*, *:before, *:after {
-					@include vendor('animation', 'none !important');
-					@include vendor('transition', 'none !important');
-				}
-			}
-
-	}
-=======
 	}
 }
->>>>>>> 7a9e7838524d6be595c245bbdce02acb251b227a
-=======
-	}
-}
->>>>>>> 34c18733f11c26f2465d907ea08c5a3b77b4c644
