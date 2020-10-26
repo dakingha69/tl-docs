@@ -48,9 +48,13 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
 
 highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
